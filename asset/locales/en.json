@@ -1,0 +1,30 @@
+{
+    "header": {
+        "openTime": "Open time: 8:00 - 18:00 Monday - Sunday",
+        "login": "Login",
+        "register": "Register",
+        "support": "SUPPORT: (04) 6674 2332 - (04) 3786 8904",
+        "searchPlaceholder": "Search...",
+        "cart": "Cart",
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "newProducts": "New Products",
+        "news": "News",
+        "contact": "Contact",
+        "product1": "Hanging Pots",
+        "product2": "Flower Plants",
+        "product3": "Climbing Plants",
+        "product4": "Table Plants",
+        "product5": "Lucky Plants",
+        "product6": "Decorative Plants",
+        "product7": "Indoor Plants",
+        "newProduct1": "New Hanging Pots",
+        "newProduct2": "New Flower Plants",
+        "newProduct3": "New Climbing Plants",
+        "newProduct4": "New Table Plants",
+        "newProduct5": "New Lucky Plants",
+        "newProduct6": "New Decorative Plants",
+        "newProduct7": "New Indoor Plants"
+    }
+}

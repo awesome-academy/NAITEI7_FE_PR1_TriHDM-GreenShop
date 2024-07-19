@@ -1,0 +1,30 @@
+{
+    "header": {
+        "openTime": "Giờ mở cửa: 8:00 - 18:00 Thứ Hai - Chủ Nhật",
+        "login": "Đăng nhập",
+        "register": "Đăng ký",
+        "support": "HỖ TRỢ: (04) 6674 2332 - (04) 3786 8904",
+        "searchPlaceholder": "Tìm kiếm...",
+        "cart": "Giỏ hàng",
+        "home": "TRANG CHỦ",
+        "about": "GIỚI THIỆU",
+        "products": "SẢN PHẨM",
+        "newProducts": "SẢN PHẨM MỚI",
+        "news": "TIN TỨC",
+        "contact": "LIÊN HỆ",
+        "product1": "Cây chậu treo",
+        "product2": "Cây có hoa",
+        "product3": "Cây dây leo",
+        "product4": "Cây để bàn",
+        "product5": "Cây may mắn",
+        "product6": "Cây trang trí",
+        "product7": "Cây nội thất",
+        "newProduct1": "Cây chậu treo mới",
+        "newProduct2": "Cây có hoa mới",
+        "newProduct3": "Cây dây leo mới",
+        "newProduct4": "Cây để bàn mới",
+        "newProduct5": "Cây may mắn mới",
+        "newProduct6": "Cây trang trí mới",
+        "newProduct7": "Cây nội thất mới"
+    }
+}
