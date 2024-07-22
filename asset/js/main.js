@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     loadHTML('/src/layouts/header.html', 'header-placeholder', '/asset/css/header.css');
+    loadHTML('/src/layouts/footer.html', 'footer-placeholder', '/asset/css/footer.css');
 });
 
 function loadHTML(filename, elementId, cssFile = null) {
