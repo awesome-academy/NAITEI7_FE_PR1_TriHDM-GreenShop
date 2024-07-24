@@ -71,8 +71,17 @@
         "title": "Featured Products",
         "common": {
             "newTag": "NEW",
-            "discountTag": "-50%",
+            "discountTag-50": "-50%",
+            "discountTag-25": "-25%",
             "buyNow": "BUY NOW"
         }
+    },
+
+    "productBestsale": {
+        "title": "Best-Selling Products"
+    },
+
+    "productDeal": {
+        "title": "Promotional Products"
     }
 }

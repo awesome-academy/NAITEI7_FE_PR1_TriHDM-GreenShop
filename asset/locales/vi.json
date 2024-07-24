@@ -71,8 +71,17 @@
         "title": "Sản phẩm nổi bật",
         "common": {
             "newTag": "MỚI",
-            "discountTag": "-50%",
+            "discountTag-50": "-50%",
+            "discountTag-25": "-25%",
             "buyNow": "MUA NGAY"
         }
+    },
+
+    "productBestsale": {
+        "title": "Sản phẩm mua nhiều"
+    },
+
+    "productDeal": {
+        "title": "Sản phẩm khuyến mãi"
     }
 }
