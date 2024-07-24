@@ -65,5 +65,14 @@
         "cooperation": "Cooperation",
         "contactInfo": "Contact Information",
         "designBy": "Designed by Bizweb ©"
+    },
+
+    "productFeature": {
+        "title": "Featured Products",
+        "common": {
+            "newTag": "NEW",
+            "discountTag": "-50%",
+            "buyNow": "BUY NOW"
+        }
     }
 }

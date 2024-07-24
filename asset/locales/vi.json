@@ -65,5 +65,14 @@
         "cooperation": "Hợp tác",
         "contactInfo": "Thông tin liên hệ",
         "designBy": "Thiết kế bởi Bizweb ©"
+    },
+
+    "productFeature": {
+        "title": "Sản phẩm nổi bật",
+        "common": {
+            "newTag": "MỚI",
+            "discountTag": "-50%",
+            "buyNow": "MUA NGAY"
+        }
     }
 }
