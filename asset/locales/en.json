@@ -83,5 +83,9 @@
 
     "productDeal": {
         "title": "Promotional Products"
+    },
+
+    "productNew": {
+        "title": "New Product"
     }
 }
