@@ -123,6 +123,23 @@
             "blue": "Blue",
             "yellow": "Yellow",
             "pink": "Pink"
+        },
+
+        "sort": {
+            "title": "Sort by",
+            "label": "Product name",
+            "alpha-asc": "A → Z",
+            "alpha-desc": "Z → A",
+            "price-asc": "Price: Low to High",
+            "price-desc": "Price: High to Low",
+            "created-desc": "Newest",
+            "created-asc": "Oldest"
+        },
+
+        "pageButton": {
+            "nextButton": "Next Page",
+            "prevButton": "Previous Page"
         }
+
     }
 }
