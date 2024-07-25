@@ -92,5 +92,37 @@
     "homeNew": {
         "title": "News",
         "common": "Read more"
+    },
+
+    "address": {
+        "home": "Home",
+        "product": "Products",
+        "news": "News"
+    },
+
+    "productPage": {
+        "leftMenu": {
+            "productCategory": "Danh mục sản phẩm",
+            "option1": "Hanging Pots (10)",
+            "option2": "Flower Plants (5)",
+            "option3": "Climbing Plants",
+            "option4": "Table Plants",
+            "option5": "Lucky Plants",
+            "option6": "Decorative Plants",
+            "option7": "CIndoor Plants",
+            "priceCategory": "Search by Price",
+            "price1": "$8.70 - $17.39",
+            "price2": "$17.39 - $26.09",
+            "price3": "$26.09 - $34.78",
+            "price4": "$34.78 - $43.48",
+            "price5": "$43.48 - $52.17",
+            "colorCategory": "Search by Color",
+            "green": "Green",
+            "orange": "Orange",
+            "violet": "Violet",
+            "blue": "Blue",
+            "yellow": "Yellow",
+            "pink": "Pink"
+        }
     }
 }

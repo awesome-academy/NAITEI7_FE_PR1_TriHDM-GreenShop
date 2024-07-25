@@ -1,0 +1,68 @@
+.aside-title {
+    position: relative;
+}
+
+.aside-title .title-head span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-bottom: 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.aside-content li a{
+    padding: 10px 30px 10px 10px;
+}
+
+.aside-content li {
+    font-size: 30px;
+}
+
+.aside-content li a.active {
+    font-weight: bold;
+}
+
+.breadcrumb .home a {
+    color: #898989;
+    text-decoration: none;
+}
+
+.breadcrumb .current-address span {
+    font-weight: normal;
+}
+
+.aside-color .aside-content li {
+    border-bottom: none;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.green-circle {
+    background-color: #4CAF50;
+}
+
+.orange-circle {
+    background-color: #FF5722;
+}
+
+.violet-circle {
+    background-color: #9C27B0;
+}
+
+.blue-circle {
+    background-color: #2196F3;
+}
+
+.yellow-circle {
+    background-color: #FFEB3B;
+}
+
+.pink-circle {
+    background-color: #E91E63;
+}

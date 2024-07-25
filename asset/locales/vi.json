@@ -92,5 +92,37 @@
     "homeNew": {
         "title": "Tin tức",
         "common": "Đọc tiếp"
+    },
+
+    "address": {
+        "home": "Trang chủ",
+        "product": "Danh sách sản phẩm",
+        "news": "Tin tức"
+    },
+
+    "productPage": {
+        "leftMenu": {
+            "productCategory": "Danh mục sản phẩm",
+            "option1": "Cây chậu treo (10)",
+            "option2": "Cây có hoa (5)",
+            "option3": "Cây dây leo",
+            "option4": "Cây để bàn",
+            "option5": "Cây may mắn",
+            "option6": "Cây trang trí",
+            "option7": "Cây nội thất",
+            "priceCategory": "Tìm theo giá",
+            "price1": "200.000 Đ - 400.000 Đ",
+            "price2": "400.000 Đ - 600.000 Đ",
+            "price3": "600.000 Đ - 800.000 Đ",
+            "price4": "800.000 Đ - 1.000.000 Đ",
+            "price5": "1.000.000 Đ - 1.200.000 Đ",
+            "colorCategory": "Tìm theo màu",
+            "green": "Xanh cây",
+            "orange": "Đỏ cam",
+            "violet": "Tím",
+            "blue": "Xanh trời",
+            "yellow": "Vàng",
+            "pink": "Hồng"
+        }
     }
 }
