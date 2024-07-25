@@ -87,5 +87,10 @@
 
     "productNew": {
         "title": "Sản phẩm mới"
+    },
+    
+    "homeNew": {
+        "title": "Tin tức",
+        "common": "Đọc tiếp"
     }
 }
