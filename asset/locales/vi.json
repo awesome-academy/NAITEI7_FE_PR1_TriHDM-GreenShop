@@ -83,5 +83,9 @@
 
     "productDeal": {
         "title": "Sản phẩm khuyến mãi"
+    },
+
+    "productNew": {
+        "title": "Sản phẩm mới"
     }
 }

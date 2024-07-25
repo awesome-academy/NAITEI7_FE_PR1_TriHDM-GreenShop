@@ -5,10 +5,6 @@
     width: 10px;
 }
 
-.carousel-indicators .active {
-    background-color: green;
-}
-
 .brand-title h2 a {
     border-bottom: 3px solid #3fb871;
     color: #3fb871 !important;
@@ -239,21 +235,6 @@
     vertical-align: middle; 
 }
 
-.deal-product .item.swiper-slide {
-    flex-shrink: 0;
-    height: 100%;
-    margin-right: 40px;
-    position: relative;
-    transition-property: transform;
-    width: calc(100%/6);
-}
-
-.deal-product .swiper-container-multirow>.swiper-wrapper {
-    display: flex;
-    box-sizing: content-box;
-    flex-wrap: wrap;
-}
-
 .swiper-wrapper {
     padding-bottom: 10px;
     width: 1462px; 
@@ -316,3 +297,34 @@
     width: 20px;
     z-index: 2;
 }
+
+.new-product .item.swiper-slide,
+.deal-product .item.swiper-slide {
+    flex-shrink: 0;
+    height: 100%;
+    margin-right: 40px;
+    position: relative;
+    transition-property: transform;
+    width: calc(100%/6);
+}
+
+.deal-product .swiper-container-multirow>.swiper-wrapper,
+.new-product .swiper-container-multirow>.swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.new-product .swiper-wrapper {
+    width: 1463px;
+}
+
+.new-product .row.mt-5 {
+    overflow: hidden;
+}
+
+.new-product .item.swiper-slide {
+    margin-right: 30px;
+    width: 262.5px;
+}
+
