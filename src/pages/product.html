@@ -27,7 +27,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container d-flex">
             <aside class="left-content col-md-3 col-lg-3 col-sm-12 col-xs-12 col-lg-pull-9 col-md-pull-9 pl-0">
                 <div class="container">
                     <div class="row">
@@ -146,10 +146,653 @@
                                 </div>
                             </aside>
                         </div>
-                        
                     </div>
                 </div>
             </aside>
+            <div class="main_container category col-lg-9 col-lg-9-fix col-md-9 padding-col-left-0 col-lg-push-3 col-md-push-3">
+                <div class="banner-category">
+                    <img class="banner-category-img" src="/asset/images/collection_banner.webp">
+                </div>
+                <div class="category-product mt-4">
+                    <div class="sortbar">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6 text-left p-0">
+                                    <div class="view-mode hidden-xs d-flex align-items-center">
+                                        <a href="#" class="text-decoration-none" data-view="grid" onclick="switchView('grid')">
+                                            <div class="btn button-view-mode view-mode-grid active p-0">
+                                                <i class="fas fa-th" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="text-decoration-none" data-view="list" onclick="switchView('list')">
+                                            <div class="btn button-view-mode view-mode-list p-0 pl-2">
+                                                <i class="fas fa-list" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                                    <div class="row filter-bar">
+                                        <div id="sort-by" class="sortpage">
+                                            <label class="left" data-translate="productPage.sort.title"></label>
+                                            <ul class="list-unstyled">
+                                                <li><span data-translate="productPage.sort.label"></span>
+                                                    <ul class="list-unstyled sort-option">                    						
+                                                        <li><a href="#" onclick="sortby('alpha-asc')" data-translate="productPage.sort.alpha-asc"></a></li>
+                                                        <li><a href="#" onclick="sortby('alpha-desc')" data-translate="productPage.sort.alpha-desc"></a></li>
+                                                        <li><a href="#" onclick="sortby('price-asc')" data-translate="productPage.sort.price-asc"></a></li>
+                                                        <li><a href="#" onclick="sortby('price-desc')" data-translate="productPage.sort.price-desc"></a></li>
+                                                        <li><a href="#" onclick="sortby('created-desc')" data-translate="productPage.sort.created-desc"></a></li>
+                                                        <li><a href="#" onclick="sortby('created-asc')" data-translate="productPage.sort.created-asc"></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="show-by" class="showpage">
+                                            <label class=""> Show</label>
+                                            <ul class="list-unstyled">
+                                                <li><span>9</span>
+                                                    <ul class="list-unstyled show-option">
+                                                        <li><a href="#" class="text-decoration-none" data-show="15">15</a></li>
+                                                        <li><a href="#" class="text-decoration-none" data-show="30">30</a></li>
+                                                        <li><a href="#" class="text-decoration-none" data-show="50">50</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="product-view products-view-grid mt-4">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4  product-col">
+                                <div class="item_product_main itemcustome margin-bottom-0">
+                                    <div class="product-box position-relative text-center">
+                                        <div class="product-thumbnail">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-15.png" title="Cây danh dự">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-15.png" alt="Cây danh dự" data-was-processed="true">
+                                            </a>
+                                            <div class="discount-tag d-flex text-white position-absolute left-30 padding-5" data-translate="productFeature.common.discountTag-25"></div>
+                                            <a class="product-overlay" href="/cay-danh-du" title="Cây danh dự"></a>
+                                            <div class="product-action clearfix">
+                                                <form action="/cart/add" method="post" data-cart-form="" class="variants form-nut-grid" data-id="product-actions-1278424" enctype="multipart/form-data">
+                                                    <div class="group_action">
+                                                        <input type="hidden" name="variantId" value="1965610">
+                                                        <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                        <a title="Xem nhanh" href="/cay-danh-du" data-handle="cay-danh-du" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="product-name">
+                                                <a href="/cay-danh-du" title="Cây danh dự">Cây danh dự</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">475.000 đ</span>
+                                                <span class="compare-price">250.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pagination mt-5">
+                            <nav class="clearfix relative nav_pagi f-left w_100">
+                                <ul class="pagination clearfix">
+                                    <li class="page-item btn-prev"><a href="#" data-translate="productPage.pageButton.prevButton"></a></li>
+                                    <li class="active page-item disabled"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="">4</a></li>
+                                    <li class="page-item btn-next"><a href="#" data-translate="productPage.pageButton.nextButton"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </section>
+                    <section class="product-view products-view-list display-none mt-4">
+                        <div class="row product-list">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="item-product">
+                                    <div class="product-box-mini d-flex">
+                                        <div class="product-image">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-4.png" title="Cây ngọc ngân">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-4.png" alt="Cây ngọc ngân" data-was-processed="true">
+                                            </a>
+                                        </div>
+                                        <div class="product-info padding-left-30">
+                                            <h3 class="product-name">
+                                                <a href="/cay-ngoc-ngan" title="Cây ngọc ngân" class="text-dark">Cây ngọc ngân</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product-description mt-2">
+                                                <span class="text-normal text-normal-size">Cây ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.</span>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">250.000 đ</span>
+                                            </div>
+                                            <div class="product-button d-flex justify-content-start mt-2">
+                                                <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart mr-3" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                <a title="Xem nhanh" href="/cay-ngoc-ngan" data-handle="cay-ngoc-ngan" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm border-normal mr-3">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+                                                <a title="Yêu thích" class="xem_nhanh btn-circle btn_view btn right-to hidden-xs hidden-sm border-normal">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product mt-4">
+                                    <div class="product-box-mini d-flex">
+                                        <div class="product-image">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-4.png" title="Cây ngọc ngân">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-4.png" alt="Cây ngọc ngân" data-was-processed="true">
+                                            </a>
+                                        </div>
+                                        <div class="product-info padding-left-30">
+                                            <h3 class="product-name">
+                                                <a href="/cay-ngoc-ngan" title="Cây ngọc ngân" class="text-dark">Cây ngọc ngân</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product-description mt-2">
+                                                <span class="text-normal text-normal-size">Cây ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.</span>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">250.000 đ</span>
+                                            </div>
+                                            <div class="product-button d-flex justify-content-start mt-2">
+                                                <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart mr-3" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                <a title="Xem nhanh" href="/cay-ngoc-ngan" data-handle="cay-ngoc-ngan" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm border-normal mr-3">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+                                                <a title="Yêu thích" class="xem_nhanh btn-circle btn_view btn right-to hidden-xs hidden-sm border-normal">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product mt-4">
+                                    <div class="product-box-mini d-flex">
+                                        <div class="product-image">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-4.png" title="Cây ngọc ngân">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-4.png" alt="Cây ngọc ngân" data-was-processed="true">
+                                            </a>
+                                        </div>
+                                        <div class="product-info padding-left-30">
+                                            <h3 class="product-name">
+                                                <a href="/cay-ngoc-ngan" title="Cây ngọc ngân" class="text-dark">Cây ngọc ngân</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product-description mt-2">
+                                                <span class="text-normal text-normal-size">Cây ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.</span>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">250.000 đ</span>
+                                            </div>
+                                            <div class="product-button d-flex justify-content-start mt-2">
+                                                <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart mr-3" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                <a title="Xem nhanh" href="/cay-ngoc-ngan" data-handle="cay-ngoc-ngan" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm border-normal mr-3">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+                                                <a title="Yêu thích" class="xem_nhanh btn-circle btn_view btn right-to hidden-xs hidden-sm border-normal">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product mt-4">
+                                    <div class="product-box-mini d-flex">
+                                        <div class="product-image">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-4.png" title="Cây ngọc ngân">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-4.png" alt="Cây ngọc ngân" data-was-processed="true">
+                                            </a>
+                                        </div>
+                                        <div class="product-info padding-left-30">
+                                            <h3 class="product-name">
+                                                <a href="/cay-ngoc-ngan" title="Cây ngọc ngân" class="text-dark">Cây ngọc ngân</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product-description mt-2">
+                                                <span class="text-normal text-normal-size">Cây ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.</span>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">250.000 đ</span>
+                                            </div>
+                                            <div class="product-button d-flex justify-content-start mt-2">
+                                                <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart mr-3" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                <a title="Xem nhanh" href="/cay-ngoc-ngan" data-handle="cay-ngoc-ngan" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm border-normal mr-3">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+                                                <a title="Yêu thích" class="xem_nhanh btn-circle btn_view btn right-to hidden-xs hidden-sm border-normal">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-product mt-4">
+                                    <div class="product-box-mini d-flex">
+                                        <div class="product-image">
+                                            <a class="image_thumb p_img image_grande" href="/asset/images/spx2-4.png" title="Cây ngọc ngân">
+                                                <img class="lazyload loaded" src="/asset/images/spx2-4.png" alt="Cây ngọc ngân" data-was-processed="true">
+                                            </a>
+                                        </div>
+                                        <div class="product-info padding-left-30">
+                                            <h3 class="product-name">
+                                                <a href="/cay-ngoc-ngan" title="Cây ngọc ngân" class="text-dark">Cây ngọc ngân</a>
+                                            </h3>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="product-description mt-2">
+                                                <span class="text-normal text-normal-size">Cây ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng.</span>
+                                            </div>
+                                            <div class="price-box">
+                                                <span class="price">250.000 đ</span>
+                                            </div>
+                                            <div class="product-button d-flex justify-content-start mt-2">
+                                                <button class="btn-buy firstb btn-cart button_35 left-to muangay add_to_cart mr-3" title="mua ngay" data-translate="productFeature.common.buyNow"></button>
+                                                <a title="Xem nhanh" href="/cay-ngoc-ngan" data-handle="cay-ngoc-ngan" class="xem_nhanh btn-circle btn_view btn right-to quick-view hidden-xs hidden-sm border-normal mr-3">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+                                                <a title="Yêu thích" class="xem_nhanh btn-circle btn_view btn right-to hidden-xs hidden-sm border-normal">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-pagination mt-5">
+                            <nav class="clearfix relative nav_pagi f-left w_100">
+                                <ul class="pagination clearfix">
+                                    <li class="page-item btn-prev"><a href="#" data-translate="productPage.pageButton.prevButton"></a></li>
+                                    <li class="active page-item disabled"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="">4</a></li>
+                                    <li class="page-item btn-next"><a href="#" data-translate="productPage.pageButton.nextButton"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </section>
 

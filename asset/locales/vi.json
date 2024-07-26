@@ -123,6 +123,22 @@
             "blue": "Xanh trời",
             "yellow": "Vàng",
             "pink": "Hồng"
+        },
+
+        "sort": {
+            "title": "Sắp xếp theo",
+            "label": "Tên sản phẩm",
+            "alpha-asc": "A → Z",
+            "alpha-desc": "Z → A",
+            "price-asc": "Giá giảm dần",
+            "price-desc": "Giá tăng dần",
+            "created-desc": "Hàng mới nhất",
+            "created-asc": "Hàng cũ nhất"
+        },
+
+        "pageButton": {
+            "nextButton": "Trang cuối",
+            "prevButton": "Trang trước"
         }
     }
 }
