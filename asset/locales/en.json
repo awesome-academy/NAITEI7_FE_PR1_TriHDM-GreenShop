@@ -80,7 +80,7 @@
     "productBestsale": {
         "title": "Best-Selling Products"
     },
-
+    
     "productDeal": {
         "title": "Promotional Products"
     },
@@ -104,7 +104,7 @@
 
     "productPage": {
         "leftMenu": {
-            "productCategory": "Danh mục sản phẩm",
+            "productCategory": "Product Category",
             "option1": "Hanging Pots (10)",
             "option2": "Flower Plants (5)",
             "option3": "Climbing Plants",
@@ -142,7 +142,6 @@
             "nextButton": "Next Page",
             "prevButton": "Previous Page"
         }
-
     },
 
     "register": {
@@ -157,5 +156,16 @@
         "rePass": "Re-enter Password",
         "buttonPrev": "BACK",
         "buttonRegis": "REGISTER"
+    },
+
+    "login": {
+        "title1": "PERSONAL INFORMATION",
+        "title2": "DON'T HAVE AN ACCOUNT YET?",
+        "email": "Your email",
+        "pass": "Password",
+        "remember": "Remember account",
+        "forgot": "Forgot password?",
+        "notice": "Register now to shop quickly and easily! Also, enjoy many policies and offers for Citybike members.",
+        "buttonLogin": "LOGIN"
     }
 }

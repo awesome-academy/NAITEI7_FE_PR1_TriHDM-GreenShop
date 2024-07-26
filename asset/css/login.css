@@ -1,0 +1,22 @@
+.login-button button,
+.load-register button {
+    border-radius: 30px;
+    display: flex;
+    padding: 10px 50px;
+}
+
+.btn-regis:hover,
+.btn-login:hover {
+    background-color: white;
+    border: 2px solid #3fb871;
+    color: #3fb871;
+    font-weight: bold;
+}
+
+.forgot-reset {
+    text-decoration: underline;
+}
+
+.forgot-reset:hover {
+    color: #3fb871;
+}
