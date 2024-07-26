@@ -97,7 +97,9 @@
     "address": {
         "home": "Home",
         "product": "Products",
-        "news": "News"
+        "news": "News",
+        "login": "Login",
+        "register": "Register"
     },
 
     "productPage": {
@@ -123,6 +125,37 @@
             "blue": "Blue",
             "yellow": "Yellow",
             "pink": "Pink"
+        },
+
+        "sort": {
+            "title": "Sort by",
+            "label": "Product name",
+            "alpha-asc": "A → Z",
+            "alpha-desc": "Z → A",
+            "price-asc": "Price: Low to High",
+            "price-desc": "Price: High to Low",
+            "created-desc": "Newest",
+            "created-asc": "Oldest"
+        },
+
+        "pageButton": {
+            "nextButton": "Next Page",
+            "prevButton": "Previous Page"
         }
+
+    },
+
+    "register": {
+        "title1": "PERSONAL INFORMATION",
+        "title2": "ACCOUNT INFORMATION",
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "website": "Your Website",
+        "checkbox": "Subscribe to email updates",
+        "pass": "Password",
+        "rePass": "Re-enter Password",
+        "buttonPrev": "BACK",
+        "buttonRegis": "REGISTER"
     }
 }

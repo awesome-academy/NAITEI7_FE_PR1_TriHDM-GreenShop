@@ -67,3 +67,22 @@ function initializeCarousel() {
     $carousel.find('.carousel-control-next').on('click', moveToNextSlide);
     $carousel.find('.carousel-control-prev').on('click', moveToPreviousSlide);
 }
+
+function switchView(view) {
+    var gridSection = document.querySelector('.products-view-grid');
+    var listSection = document.querySelector('.products-view-list');
+    var gridButton = document.querySelector('.view-mode-grid');
+    var listButton = document.querySelector('.view-mode-list');
+    
+    if (view === 'grid') {
+        gridSection.style.display = 'block';
+        listSection.style.display = 'none';
+        gridButton.classList.add('active');
+        listButton.classList.remove('active');
+    } else if (view === 'list') {
+        gridSection.style.display = 'none';
+        listSection.style.display = 'block';
+        gridButton.classList.remove('active');
+        listButton.classList.add('active');
+    }
+}

@@ -1,0 +1,30 @@
+.breadcrumb .current-address span {
+    font-weight: normal;
+}
+
+.aside-color .aside-content li {
+    border-bottom: none;
+}
+
+.register-button button {
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+.register-button .btn-regis:hover {
+    background-color: white;
+    border: 2px solid #3fb871;
+    color: #3fb871;
+    font-weight: bold;
+}
+
+.register-button .btn-back:hover {
+    background-color: #3fb871;
+    color: white;
+    font-weight: bold;
+}
+
+.required-label::after {
+    color: red;
+    content: " *";
+}

@@ -97,7 +97,9 @@
     "address": {
         "home": "Trang chủ",
         "product": "Danh sách sản phẩm",
-        "news": "Tin tức"
+        "news": "Tin tức",
+        "login":"Đăng nhập",
+        "register":"Đăng ký"
     },
 
     "productPage": {
@@ -123,6 +125,36 @@
             "blue": "Xanh trời",
             "yellow": "Vàng",
             "pink": "Hồng"
+        },
+
+        "sort": {
+            "title": "Sắp xếp theo",
+            "label": "Tên sản phẩm",
+            "alpha-asc": "A → Z",
+            "alpha-desc": "Z → A",
+            "price-asc": "Giá giảm dần",
+            "price-desc": "Giá tăng dần",
+            "created-desc": "Hàng mới nhất",
+            "created-asc": "Hàng cũ nhất"
+        },
+
+        "pageButton": {
+            "nextButton": "Trang cuối",
+            "prevButton": "Trang trước"
         }
+    },
+
+    "register": {
+        "title1": "THÔNG TIN CÁ NHÂN",
+        "title2": "THÔNG TIN TÀI KHOẢN",
+        "name": "Họ và tên",
+        "phone": "Số ĐT",
+        "email": "Địa chỉ email",
+        "website": "Website của bạn",
+        "checkbox": "Đăng ký nhận thông tin qua email",
+        "pass": "Mật khẩu",
+        "rePass": "Nhập lại mật khẩu",
+        "buttonPrev": "QUAY LẠI",
+        "buttonRegis": "ĐĂNG KÝ"
     }
 }
