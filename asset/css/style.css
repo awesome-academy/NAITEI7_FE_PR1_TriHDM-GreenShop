@@ -1,0 +1,54 @@
+/* TEXT */
+.text-normal-size {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.text-normal {
+    color: #898989;
+}
+
+.text-normal-hover {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.text-normal-hover:hover {
+    color: #3fb871;
+    font-weight: bold;
+}
+
+.text-green {
+    color: #3fb871;
+}
+
+/* MARGIN */
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+
+/* BORDER */
+.border-title {
+    border-bottom: 3px solid #3fb871;
+}
+
+.border-normal {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.border-li {
+    border-bottom: 1px solid #ebebeb;
+}
+
+/* FLEX */
+.flex-half {
+    flex: 0 0 50%;
+}
+
+/* BACKGROUND */
+.bg-white {
+    background-color: #fff;
+}
