@@ -1,0 +1,142 @@
+.aside-title {
+    position: relative;
+}
+
+.aside-title .title-head span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-bottom: 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.aside-content li a{
+    padding: 10px 30px 10px 10px;
+}
+
+.aside-content li {
+    font-size: 30px;
+}
+
+.aside-content li a.active {
+    font-weight: bold;
+}
+
+.news-box {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.news-thumbnail {
+    height: 100px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.news-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-content {
+    flex: 1;
+    height: 100%;
+}
+
+.tag {
+    border: 1px solid #b7b7b7;
+}
+
+.tag.active {
+    background-color: #3fb871;
+    border: 1px solid #3fb871;
+    color: white;
+    font-weight: bold;
+}
+
+.tag:hover {
+    background-color: #3fb871;
+    border: 1px solid #3fb871;
+    color: white;
+    font-weight: bold;
+}
+
+.nav_pagi .pagination {
+    display: flex;
+    justify-content: end;
+}
+
+.nav_pagi .pagination .page-link {
+    float: left;
+    margin: 0 5px;
+    border-radius: 0;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    border: solid 1px #b7b7b7;
+}
+
+.nav_pagi .pagination .btn-prev,
+.nav_pagi .pagination .btn-next {
+    float: left;
+    margin: 0 5px;
+    border-radius: 0;
+    background: #fff;
+    text-align: center;
+    height: 40px;
+    font-size: 14px;
+    padding: 0;
+    line-height: 40px;
+    color: #898989;
+    border: solid 1px #b7b7b7;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_pagi .pagination .btn-prev a,
+.nav_pagi .pagination .btn-next a {
+    color: #898989;
+}
+
+.nav_pagi .pagination .btn-prev a:hover,
+.nav_pagi .pagination .btn-next a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav_pagi .pagination .btn-prev:hover,
+.nav_pagi .pagination .btn-next:hover {
+    background-color: #3fb871;
+    transition: background-color 0.3s ease-in;
+}
+
+.page-item.active .page-link {
+    color: white;
+    background-color: #3fb871;
+}
+
+.nav_pagi .pagination .page-link:hover {
+    background-color: #3fb871;
+    color: white;
+    transition: background-color 0.3s ease-in;
+}
+
+.news-img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.news-img img {
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+}
