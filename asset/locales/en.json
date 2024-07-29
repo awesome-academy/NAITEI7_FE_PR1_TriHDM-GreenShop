@@ -192,7 +192,7 @@
             "email": "Email: info@dkt.com.vn"
         }
     },
-    
+
     "news": {
         "leftMenu": {
             "title": "Featured News",
@@ -207,6 +207,19 @@
                 "tag8": "Gifts",
                 "tag9": "Souvenirs"
             }
+        },
+
+        "detail": {
+            "comment": {
+            "label": "COMMENTS(3)",
+            "rep": "Reply",
+            "write": "WRITE A COMMENT",
+            "name": "Name",
+            "phone": "Phone Number",
+            "content": "Comment"
+            },  
+
+            "button": "Submit"
         }
     }
 }

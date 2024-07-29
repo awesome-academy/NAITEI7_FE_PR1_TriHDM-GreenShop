@@ -207,6 +207,19 @@
                 "tag8": "Quà tặng",
                 "tag9": "Lưu niệm"
             }
+        },
+
+        "detail": {
+            "comment": {
+                "label": "BÌNH LUẬN(3)",
+                "rep": "Trả lời",
+                "write": "VIẾT BÌNH LUẬN",
+                "name": "Họ và tên",
+                "phone": "Số ĐT",
+                "content": "Bình luận"
+            },
+
+            "button": "Gửi"
         }
     }
 }
