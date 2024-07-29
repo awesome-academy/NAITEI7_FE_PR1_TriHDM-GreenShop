@@ -97,7 +97,9 @@
     "address": {
         "home": "Home",
         "product": "Products",
-        "news": "News"
+        "news": "News",
+        "login": "Login",
+        "register": "Register"
     },
 
     "productPage": {
@@ -141,5 +143,19 @@
             "prevButton": "Previous Page"
         }
 
+    },
+
+    "register": {
+        "title1": "PERSONAL INFORMATION",
+        "title2": "ACCOUNT INFORMATION",
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "website": "Your Website",
+        "checkbox": "Subscribe to email updates",
+        "pass": "Password",
+        "rePass": "Re-enter Password",
+        "buttonPrev": "BACK",
+        "buttonRegis": "REGISTER"
     }
 }
