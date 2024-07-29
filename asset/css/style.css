@@ -24,9 +24,31 @@
     color: #3fb871;
 }
 
+.text-yellow {
+    color: #FFD700;
+}
+
+.text-red-price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-left {
+    text-align: left;
+}
+
 /* MARGIN */
 .margin-right-10 {
     margin-right: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
 }
 
 /* PADDING */
@@ -40,6 +62,14 @@
 
 .padding-5 {
     padding: 5px 5px;
+}
+
+.padding-top-30{
+    padding-top: 30px;
+}
+
+.padding-bottom-25{
+    padding-bottom: 25px;
 }
 
 /* BORDER */
@@ -59,6 +89,10 @@
     border: 1px solid #3fb871;
 }
 
+.border-button-normal {
+    border: 1px solid #b7b7b7;
+}
+
 /* FLEX */
 .flex-half {
     flex: 0 0 50%;
@@ -71,6 +105,22 @@
 
 .bg-green {
     background-color: #3fb871;
+}
+
+.bg-fb {
+    background-color: #43609C;
+}
+
+.bg-tw {
+    background-color: #1DA1F2;
+}
+
+.bg-gg {
+    background-color: white;
+}
+
+.bg-share {
+    background-color: #FF5722;
 }
 
 /* BUTTON */
@@ -126,4 +176,17 @@
 /* POSITION */
 .left-30 {
     left: 30px;
+}
+
+/* FONT */
+.f-14{
+    font-size: 14px;
+}
+
+.f-13{
+    font-size: 13px;
+}
+
+.f-16{
+    font-size: 16px;
 }

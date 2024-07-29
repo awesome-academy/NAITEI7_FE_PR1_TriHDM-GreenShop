@@ -1,0 +1,270 @@
+.main-img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-main {
+    height: auto;
+    width: 100%;
+}
+
+.sub-img-container {
+    box-sizing: border-box;
+    flex: 0 0 calc(20% - 18px);
+    margin-left: 15px;
+}
+
+.img-sub {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.product-rating {
+    color: #FFD700;
+}
+
+.compare-price {
+    text-decoration: line-through;
+}
+
+.product-quality button {
+    height: 36px;
+    width: 36px;
+}
+
+.product-quality button:hover {
+    border-color: #36a66d;
+}
+
+.product-quality div {
+    height: 36px;
+}
+
+.number-badge {
+    align-items: center;
+    border: 2px solid #b7b7b7;
+    border-radius: 5px;
+}
+
+.number-badge::before {
+    border: 7px solid transparent;
+    border-left-color: #b7b7b7;
+    content: '';
+    height: 0px;
+    left: -15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    width: 0px;
+}
+
+.number-badge::after {
+    border: 5px solid transparent;
+    border-left-color: #f8f8f8;
+    content: '';
+    height: 0px;
+    left: -10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    width: 0px;
+}
+
+.bg-fb,
+.bg-tw,
+.bg-gg,
+.bg-share {
+    border-radius: 4px;
+}
+
+.google .number-badge::before {
+    border: 6px solid transparent;
+    border-left-color: #b7b7b7;
+    content: '';
+    height: 0px;
+    left: -13px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    width: 0px;
+}
+
+.google .number-badge::after {
+    border: 5px solid transparent;
+    border-left-color: #f8f8f8;
+    content: '';
+    height: 0px;
+    left: -9px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    width: 0px;
+}
+
+.sub-img-container:hover {
+    border: 1px solid #3fb871;
+}
+
+.tab-section {
+    width: 100%;
+}
+
+.product-tab .content_extab {
+    background: #fff;
+    border: solid 1px #ebebeb;
+    border-top: 0px;
+    display: none;
+    padding: 20px 15px;
+}
+
+.content_extab.current {
+    display: block;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-tab .tab-link {
+    display: inline-block;
+    padding: 10px 80px;
+    position: relative;
+    width: auto;
+}
+
+.product-tab .tab-link:hover {
+    color: #3fb871;
+}
+
+.product-tab .tab-link.current {
+    background-color: white;
+    color: #3fb871;
+    bottom: -1px;
+    border: 1px solid #ebebeb;
+    border-bottom: 0;
+}
+
+.product-tab .tab-link.current::before {
+    background-color: #b7b7b7;
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
+
+.aside-title {
+    position: relative;
+}
+
+.aside-title .title-head span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-bottom: 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.product-box {
+    overflow: hidden;
+}
+
+.product-box img {
+    height: auto;
+    max-width: 100%;
+}
+
+.discount-tag {
+    align-items: center;
+    background: red;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 50px;
+    justify-content: center;
+    top: 20px;
+    width: 50px;
+}
+
+.new-tag {
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 50px;
+    justify-content: center;
+    top: 20px;
+    width: 50px;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-name a {
+    color: #b7b7b7;
+    text-decoration: none;
+}
+
+.product-rating {
+    color: #FFD700;
+}
+
+.price-box {
+    margin-top: 10px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.compare-price {
+    color: grey;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.product-action {
+    display: none;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.product-box:hover .product-action {
+    display: block;
+}
+
+.group_action {
+    display: flex;
+}
+
+.product-thumbnail {
+    position: relative;
+}
+
+.product-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.3s;
+    width: 100%;
+    z-index: 1;
+}
+
+.product-box:hover .product-overlay {
+    opacity: 1;
+}
+
+.new-tag, .discount-tag {
+    z-index: 2;
+}
