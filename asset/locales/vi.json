@@ -80,7 +80,7 @@
     "productBestsale": {
         "title": "Sản phẩm mua nhiều"
     },
-
+    
     "productDeal": {
         "title": "Sản phẩm khuyến mãi"
     },
@@ -156,5 +156,16 @@
         "rePass": "Nhập lại mật khẩu",
         "buttonPrev": "QUAY LẠI",
         "buttonRegis": "ĐĂNG KÝ"
+    },
+
+    "login": {
+        "title1": "THÔNG TIN CÁ NHÂN",
+        "title2": "BẠN CHƯA CÓ TÀI KHOẢN ?",
+        "email": "Email của bạn",
+        "pass": "Mật khẩu",
+        "remember": "Ghi nhớ tài khoản",
+        "forgot": "Bạn quên mật khẩu ?",
+        "notice": "Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng hơn! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên citybike",
+        "buttonLogin": "ĐĂNG NHẬP" 
     }
 }
