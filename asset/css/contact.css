@@ -1,0 +1,20 @@
+.section_maps {
+    width: 100%;
+}
+
+.box-map, .iFrameMap, .google-map {
+    width: 100%;
+}
+
+.map-iframe {
+    width: 100%;
+}
+
+.map-iframe iframe {
+    width: 100%;
+}
+
+.required-label::after {
+    color: red;
+    content: " *:";
+}

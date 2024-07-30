@@ -95,7 +95,8 @@
         "product": "Danh sách sản phẩm",
         "news": "Tin tức",
         "login":"Đăng nhập",
-        "register":"Đăng ký"
+        "register": "Đăng ký",
+        "contact": "Liên hệ"
     },
 
     "productPage": {
@@ -174,5 +175,21 @@
             "tab3": "THẺ TAG"
         },
         "title": "Sản phẩm cùng loại"
-    }
-}
+    },
+
+    "contact": {
+        "contactInfo": {
+            "title": "THÔNG TIN LIÊN HỆ",
+            "name": "Họ và tên",
+            "email": "Địa chỉ email",
+            "phone": "Số ĐT",
+            "comment": "Bình luận"
+        },
+
+        "contactDescription": {
+            "content": "DKT được thành lập với niềm đam mê và khát vọng thành công trong lình vực Thương mại điện tử. Chúng tôi đã và đang khẳng định được vị trí hành đầu bằng những sản phẩm",
+            "phone": "Điện thoại: (84-4) 66.558.868",
+            "email": "Email: info@dkt.com.vn"
+        }
+    }  
+} 
