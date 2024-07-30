@@ -85,10 +85,6 @@
         "title": "Sản phẩm khuyến mãi"
     },
 
-    "productNew": {
-        "title": "Sản phẩm mới"
-    },
-    
     "homeNew": {
         "title": "Tin tức",
         "common": "Đọc tiếp"
@@ -167,5 +163,16 @@
         "forgot": "Bạn quên mật khẩu ?",
         "notice": "Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng hơn! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên citybike",
         "buttonLogin": "ĐĂNG NHẬP" 
+    },
+
+    "buyQuality": "Số lượng",
+
+    "productDetail": {
+        "tab": {
+            "tab1": "THÔNG TIN SẢN PHẨM",
+            "tab2": "KHÁCH HÀNG ĐÁNH GIÁ",
+            "tab3": "THẺ TAG"
+        },
+        "title": "Sản phẩm cùng loại"
     }
 }

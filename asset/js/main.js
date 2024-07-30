@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize the carousel after HTML has been loaded
     initializeCarousel();
+
+    // Add tab functionality after DOM content has loaded
+    setupTabs();
 });
 
 function loadHTML(filename, elementId, cssFile = null) {
@@ -37,7 +40,7 @@ function initializeCarousel() {
         const $items = $carousel.find('.carousel-item');
         const totalItems = $items.length;
         const activeIndex = $items.index($items.filter('.active'));
-        let nextIndex = (activeIndex + 1) % (totalItems);
+        let nextIndex = (activeIndex + 1) % totalItems;
 
         // Update active classes
         $items.removeClass('active');
@@ -48,7 +51,7 @@ function initializeCarousel() {
         const $items = $carousel.find('.carousel-item');
         const totalItems = $items.length;
         const activeIndex = $items.index($items.filter('.active'));
-        let prevIndex = (activeIndex - 1 + totalItems) % (totalItems);
+        let prevIndex = (activeIndex - 1 + totalItems) % totalItems;
 
         // Update active classes
         $items.removeClass('active');
@@ -85,4 +88,23 @@ function switchView(view) {
         gridButton.classList.remove('active');
         listButton.classList.add('active');
     }
+}
+
+function setupTabs() {
+    document.querySelectorAll('.tab-link').forEach(link => {
+        link.addEventListener('click', function() {
+            document.querySelectorAll('.tab-link').forEach(link => {
+                link.classList.remove('current');
+            });
+            this.classList.add('current');
+
+            const tabContent = document.querySelectorAll('.tab-content');
+            tabContent.forEach(content => {
+                content.classList.remove('current');
+            });
+
+            const activeTab = this.getAttribute('data-tab');
+            document.getElementById(activeTab).classList.add('current');
+        });
+    });
 }

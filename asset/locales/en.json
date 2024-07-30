@@ -85,10 +85,6 @@
         "title": "Promotional Products"
     },
 
-    "productNew": {
-        "title": "New Product"
-    },
-    
     "homeNew": {
         "title": "News",
         "common": "Read more"
@@ -167,5 +163,16 @@
         "forgot": "Forgot password?",
         "notice": "Register now to shop quickly and easily! Also, enjoy many policies and offers for Citybike members.",
         "buttonLogin": "LOGIN"
-    }
+    },
+
+    "buyQuality": "Quality",
+
+    "productDetail": {
+        "tab": {
+            "tab1": "PRODUCT INFORMATION",
+            "tab2": "CUSTOMER REVIEWS",
+            "tab3": "TAGS"
+        },
+        "title": "Similar Products"
+    }   
 }
