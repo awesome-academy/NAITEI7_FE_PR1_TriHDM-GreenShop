@@ -191,5 +191,22 @@
             "phone": "Phone: (84-4) 66.558.868",
             "email": "Email: info@dkt.com.vn"
         }
+    },
+    
+    "news": {
+        "leftMenu": {
+            "title": "Featured News",
+            "tag": {
+                "tag1": "Office Plants",
+                "tag2": "Lucky Plants",
+                "tag3": "Green Plants",
+                "tag4": "Decorative Plants",
+                "tag5": "Plants",
+                "tag6": "Plants",
+                "tag7": "Health",
+                "tag8": "Gifts",
+                "tag9": "Souvenirs"
+            }
+        }
     }
 }

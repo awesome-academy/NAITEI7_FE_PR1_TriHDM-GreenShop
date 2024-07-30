@@ -72,25 +72,8 @@
     padding-bottom: 25px;
 }
 
-/* BORDER */
-.border-title {
-    border-bottom: 3px solid #3fb871;
-}
-
-.border-normal {
-    border-bottom: 1px solid #b7b7b7;
-}
-
-.border-li {
-    border-bottom: 1px solid #ebebeb;
-}
-
-.border-button {
-    border: 1px solid #3fb871;
-}
-
-.border-button-normal {
-    border: 1px solid #b7b7b7;
+.padding-5-10 {
+    padding: 5px 10px;
 }
 
 /* FLEX */
@@ -189,4 +172,25 @@
 
 .f-16{
     font-size: 16px;
+}
+
+/* BORDER */
+.border-title {
+    border-bottom: 3px solid #3fb871;
+}
+
+.border-normal {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.border-li {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.border-button {
+    border: 1px solid #3fb871;
+}
+
+.border-button-normal {
+    border: 1px solid #b7b7b7;
 }

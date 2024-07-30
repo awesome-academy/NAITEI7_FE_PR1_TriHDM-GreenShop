@@ -191,5 +191,22 @@
             "phone": "Điện thoại: (84-4) 66.558.868",
             "email": "Email: info@dkt.com.vn"
         }
-    }  
-} 
+    },
+    
+    "news": {
+        "leftMenu": {
+            "title": "Tin tức nổi bật",
+            "tag": {
+                "tag1": "Cây văn phòng",
+                "tag2": "Cây phát lộc",
+                "tag3": "Cây xanh",
+                "tag4": "Cây trang trí",
+                "tag5": "Cây",
+                "tag6": "Plants",
+                "tag7": "Sức khỏe",
+                "tag8": "Quà tặng",
+                "tag9": "Lưu niệm"
+            }
+        }
+    }
+}
