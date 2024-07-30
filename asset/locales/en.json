@@ -95,7 +95,8 @@
         "product": "Products",
         "news": "News",
         "login": "Login",
-        "register": "Register"
+        "register": "Register",
+        "contact": "Contact"
     },
 
     "productPage": {
@@ -174,5 +175,21 @@
             "tab3": "TAGS"
         },
         "title": "Similar Products"
-    }   
+    },
+
+    "contact": {
+        "contactInfo": {
+            "title": "CONTACT INFORMATION",
+            "name": "Full Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "comment": "Comment"
+        },
+
+        "contactDescription": {
+            "content": "DKT was established with a passion and ambition for success in the field of e-commerce. We have been and continue to assert our leading position with our products.",
+            "phone": "Phone: (84-4) 66.558.868",
+            "email": "Email: info@dkt.com.vn"
+        }
+    }
 }
