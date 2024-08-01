@@ -393,3 +393,8 @@
 .item-product .product-box-mini .product-info .xem_nhanh {
     border: 1px solid #b7b7b7;
 }
+
+.item-product .product-box-mini .product-info .product-description {
+    height: 45px;
+    overflow: hidden;
+}

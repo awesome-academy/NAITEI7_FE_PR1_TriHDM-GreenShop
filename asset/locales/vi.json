@@ -85,6 +85,10 @@
         "title": "Sản phẩm khuyến mãi"
     },
 
+    "productNew": {
+        "title": "Sản phẩm mới"
+    },
+
     "homeNew": {
         "title": "Tin tức",
         "common": "Đọc tiếp"
@@ -96,7 +100,8 @@
         "news": "Tin tức",
         "login":"Đăng nhập",
         "register": "Đăng ký",
-        "contact": "Liên hệ"
+        "contact": "Liên hệ",
+        "cart":"Giỏ hàng"
     },
 
     "productPage": {
@@ -221,5 +226,34 @@
 
             "button": "Gửi"
         }
+    },
+
+    "cart": {
+        "title": "GIỎ HÀNG",
+        "table": {
+            "image": "HÌNH ẢNH",
+            "name": "TÊN SẢN PHẨM",
+            "price": "ĐƠN GIÁ",
+            "quality": "SỐ LƯỢNG",
+            "totalPrice": "THÀNH TIỀN",
+            "delete": "XÓA"
+        },
+        "button": {
+            "cancel": "HỦY ĐƠN HÀNG",
+            "continue": "TIẾP TỤC MUA",
+            "pay": "THANH TOÁN"
+        },
+        "invoice": {
+            "sum": "TỔNG TIỀN (CHƯA THUẾ)",
+            "vat": "THUẾ (VAT 10%)",
+            "total": "TỔNG PHẢI THANH TOÁN"
+        }
+    },
+
+    "popup": {
+        "h2": "Nhận tin tức từ chúng tôi",
+        "h4": "Đăng ký email ngay hôm nay",
+        "p": "Đăng ký email ngay hôm nay để nhận các thông tin về sự kiện và các chương trình giảm giá từ chúng tôi",
+        "checkbox": "Không hiển thị lại thông báo này nữa"
     }
 }

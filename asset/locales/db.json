@@ -1,0 +1,474 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-1.png",
+            "title": "Cay da bup do",
+            "alt": "Cây đa búp đỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "475.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 2,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-2.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "150.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 3,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-3.png",
+            "title": "cay da bup do",
+            "alt": "Cây đa búp đỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "1.000.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 4,
+            "name": "Cây chân chim",
+            "image": "/asset/images/spx2-4.png",
+            "title": "cay chan chim",
+            "alt": "Cây chân chim",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "newTag"
+        },
+
+        {
+            "id": 5,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-5.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "880.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": ""
+        },
+
+        {
+            "id": 6,
+            "name": "Cây dứa nhỏ",
+            "image": "/asset/images/spx2-6.png",
+            "title": "cay dua nho",
+            "alt": "Cây dứa nhỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "275.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "newTag"
+        },
+
+        {
+            "id": 7,
+            "name": "Cây xương rồng",
+            "image": "/asset/images/spx2-7.png",
+            "title": "cay xuong rong",
+            "alt": "Cây xương rồng",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 8,
+            "name": "Cây danh dự",
+            "image": "/asset/images/spx2-8.png",
+            "title": "cay danh du",
+            "alt": "Cây danh dự",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "780.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 9,
+            "name": "Cây dạ lam",
+            "image": "/asset/images/spx2-9.png",
+            "title": "cay da lam",
+            "alt": "Cây dạ lam",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "150.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 10,
+            "name": "Cây chân chim",
+            "image": "/asset/images/spx2-10.png",
+            "title": "cay chan chim",
+            "alt": "Cây chân chim",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 11,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-11.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "770.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 12,
+            "name": "Cây dứa nhỏ",
+            "image": "/asset/images/spx2-12.png",
+            "title": "cay dua nho",
+            "alt": "Cây dứa nhỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "668.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "newTag"
+        },
+
+        {
+            "id": 13,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-13.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "880.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": ""
+        },
+
+        {
+            "id": 14,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-14.png",
+            "title": "cay da bup do",
+            "alt": "Cây đa búp đỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "155.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "newTag"
+        },
+
+        {
+            "id": 15,
+            "name": "Cây danh dự",
+            "image": "/asset/images/spx2-15.png",
+            "title": "cay danh du",
+            "alt": "Cây danh dự",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        }
+    ],
+
+    "news": [
+        {
+            "id": 1,
+            "title": "Cách bố trí hoa chậu trước cửa ấn tượng ngay lần đầu tiên",
+            "date": "20/12/2015",
+            "time": "11:20:00 AM",
+            "comment": 3,
+            "image": "/asset/images/news-1.webp",
+            "description": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.",
+            "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt."
+        },
+
+        {
+            "id": 2,
+            "title": "Hướng dẫn lựa chọn và bố trí cây xanh trong phòng khách",
+            "date": "20/12/2015",
+            "time": "11:20:00 AM",
+            "comment": 3,
+            "image": "/asset/images/news-2.webp",
+            "description": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.",
+            "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt."
+        },
+
+        {
+            "id": 3,
+            "title": "Cách bố trí cây cảnh các vị trí quan trọng trong nhà để hút lộc",
+            "date": "20/12/2015",
+            "time": "11:20:00 AM",
+            "comment": 3,
+            "image": "/asset/images/news-3.webp",
+            "description": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.",
+            "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt."
+        },
+
+        {
+            "id": 4,
+            "title": "Những lợi ích của việc trồng cây trong văn phòng",
+            "date": "20/12/2015",
+            "time": "11:20:00 AM",
+            "comment": 3,
+            "image": "/asset/images/news-4.webp",
+            "description": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.",
+            "content": "Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt."
+        }
+    ],
+
+    "productFeature": [
+        {
+            "id": 1,
+            "name": "Cây chân chim",
+            "image": "/asset/images/spx2-4.png",
+            "rating": 4.5,
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "newTag",
+            "title": "cay chan chim",
+            "alt": "Cây chân chim"
+        },
+
+        {
+            "id": 2,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-11.png",
+            "rating": 4.5,
+            "price": "150.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta"
+        },
+        {
+            "id": 3,
+            "name": "Cây dứa nhỏ",
+            "image": "/asset/images/spx2-1.png",
+            "rating": 4.5,
+            "price": "375.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "",
+            "title": "cay dua nho",
+            "alt": "Cây dứa nhỏ"
+        },
+
+        {
+            "id": 4,
+            "name": "Cây dạ lam",
+            "image": "/asset/images/spx2-5.png",
+            "rating": 4.5,
+            "price": "500.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "discountTag-50",
+            "title": "cay da lam",
+            "alt": "Cây dạ lam"
+        },
+
+        {
+            "id": 5,
+            "name": "Cây danh dự",
+            "image": "/asset/images/spx2-15.png",
+            "rating": 4.5,
+            "price": "850.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "newTag",
+            "title": "cay danh du",
+            "alt": "Cây danh dự"
+        },
+
+        {
+            "id": 6,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-3.png",
+            "rating": 4.5,
+            "price": "1.000.000 đ",
+            "comparePrice": "250.000 đ",
+            "tag": "discountTag-50",
+            "title": "cay da bup do",
+            "alt": "Cây đa búp đỏ"
+        }
+    ],
+
+    "productDeal": [
+        {
+            "id": 1,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-1.png",
+            "title": "cay da bup do",
+            "alt": "Cây đa búp đỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "475.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 2,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-2.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "150.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 3,
+            "name": "Cây đa búp đỏ",
+            "image": "/asset/images/spx2-3.png",
+            "title": "cay da bup do",
+            "alt": "Cây đa búp đỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "1.000.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 4,
+            "name": "Cây chân chim",
+            "image": "/asset/images/spx2-4.png",
+            "title": "cay chan chim",
+            "alt": "Cây chân chim",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 5,
+            "name": "Cây cọ ta",
+            "image": "/asset/images/spx2-5.png",
+            "title": "cay co ta",
+            "alt": "Cây cọ ta",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "880.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 6,
+            "name": "Cây dứa nhỏ",
+            "image": "/asset/images/spx2-6.png",
+            "title": "cay dua nho",
+            "alt": "Cây dứa nhỏ",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "275.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 7,
+            "name": "Cây xương rồng",
+            "image": "/asset/images/spx2-7.png",
+            "title": "cay xuong rong",
+            "alt": "Cây xương rồng",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 8,
+            "name": "Cây danh dự",
+            "image": "/asset/images/spx2-8.png",
+            "title": "cay xuong rong",
+            "alt": "Cây danh dự",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "780.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        },
+
+        {
+            "id": 9,
+            "name": "Cây dạ lam",
+            "image": "/asset/images/spx2-9.png",
+            "title": "cay da lam",
+            "alt": "Cây dạ lam",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "150.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-25"
+        },
+
+        {
+            "id": 10,
+            "name": "Cây chân chim",
+            "image": "/asset/images/spx2-10.png",
+            "title": "cay chan chim",
+            "alt": "Cây chân chim",
+            "rating": 4.5,
+            "description": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Là hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá màu nhạt hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.",
+            "price": "250.000 đ",
+            "comparePrice": "250.000 đ",
+            "info": "Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn. <br> Tên khoa học: Calathea zebrina <br> Họ thực vật: Marantaceae (Củ dong). <br> Chiều cao: 0,8-1,2m <br> Cây dạ lam có nguồn gốc từ Brazill, được du nhập và phân bổ rộng khắp ở Việt Nam.",
+            "tag": "discountTag-50"
+        }
+    ]
+}

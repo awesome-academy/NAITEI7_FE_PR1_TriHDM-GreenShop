@@ -1,0 +1,35 @@
+tr img {
+    height: 150px;
+    width: 150px;
+}
+
+tbody tr {
+    width: fit-content;
+}
+
+tr .img {
+    height: 150px;
+    width: 150px;
+}
+
+tbody input {
+    max-height: 50px;
+    max-width: 50px;
+    right:40%;
+    top: 40%;
+}
+
+.cart-list button {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.cart-list .cancel:hover {
+    background-color: #3fb871;
+    color: white;
+}
+
+.cart-list .continue:hover {
+    background-color: #fff;
+    color: #3fb871 !important;
+}

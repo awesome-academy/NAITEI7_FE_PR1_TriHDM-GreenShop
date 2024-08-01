@@ -16,7 +16,7 @@
 }
 
 .text-normal-hover:hover {
-    color: #3fb871;
+    color: #3fb871 !important;
     font-weight: bold;
 }
 
@@ -38,6 +38,10 @@
     color: red;
 }
 
+.text-black {
+    color: black;
+}
+
 .text-left {
     text-align: left;
 }
@@ -45,6 +49,10 @@
 /* MARGIN */
 .margin-right-10 {
     margin-right: 10px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
 }
 
 .margin-left-10 {
@@ -172,6 +180,10 @@
 
 .f-16{
     font-size: 16px;
+}
+
+.f-30 {
+    font-size: 30px;
 }
 
 /* BORDER */
