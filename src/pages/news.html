@@ -10,6 +10,34 @@
     <link rel="stylesheet" href="/asset/css/style.css">
 </head>
 <body>
+    <div class="overlay"></div>
+
+    <div class="popup">
+        <span class="close">&times;</span>
+        <div class="d-flex">
+            <div>
+                <img src="/asset/images/popup.jpg" alt="Popup Image">
+            </div>
+            <div class="ml-3 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="text-green mt-2" data-translate="popup.h2"></h2>
+                <h4 data-translate="popup.h4"></h4>
+                <form>
+                    <div class="input-group mb-3 d-flex justify-content-center align-items-center">
+                        <input type="email" class="form-control w-75" placeholder="Nhập email của bạn vào đây" aria-label="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                    <p class="text-normal" data-translate="popup.p"></p>
+                    <div class="form-check d-flex align-items-center justify-content-center">
+                        <input type="checkbox" class="mr-2" id="dontShowAgain">
+                        <label class="form-check-label m-0 text-normal" for="dontShowAgain" data-translate="popup.checkbox"></label>
+                    </div>
+                </form>
+            </div>
+        </div>    
+    </div>
+
     <div id="header-placeholder"></div>
 
     <section class="news-address">
@@ -71,51 +99,8 @@
                                 </div>
                                 <div class="aside-content mt-4">
                                     <nav class="nav-category flex-column">
-                                        <ul class="list-unstyled">
-                                            <li class="p-0 d-flex">
-                                                <div class="news-box align-items-center d-flex">
-                                                    <div class="news-thumbnail">
-                                                        <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                                                    </div>
-                                                    <div class="news-content text-normal-hover pl-2 d-flex justify-content-start">News-1</div>
-                                                </div>
-                                            </li>
-
-                                            <li class="p-0 d-flex mt-3">
-                                                <div class="news-box align-items-center d-flex">
-                                                    <div class="news-thumbnail">
-                                                        <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                                                    </div>
-                                                    <div class="news-content text-normal-hover pl-2 d-flex justify-content-start">News-1</div>
-                                                </div>
-                                            </li>
-
-                                            <li class="p-0 d-flex mt-3">
-                                                <div class="news-box align-items-center d-flex">
-                                                    <div class="news-thumbnail">
-                                                        <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                                                    </div>
-                                                    <div class="news-content text-normal-hover pl-2 d-flex justify-content-start">News-1</div>
-                                                </div>
-                                            </li>
-
-                                            <li class="p-0 d-flex mt-3">
-                                                <div class="news-box align-items-center d-flex">
-                                                    <div class="news-thumbnail">
-                                                        <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                                                    </div>
-                                                    <div class="news-content text-normal-hover pl-2 d-flex justify-content-start">News-1</div>
-                                                </div>
-                                            </li>
-
-                                            <li class="p-0 d-flex mt-3">
-                                                <div class="news-box align-items-center d-flex">
-                                                    <div class="news-thumbnail">
-                                                        <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                                                    </div>
-                                                    <div class="news-content text-normal-hover pl-2 d-flex justify-content-start">News-1</div>
-                                                </div>
-                                            </li>
+                                        <ul class="list-unstyled" id="news-list">
+                                            
                                         </ul>
                                     </nav>
                                 </div>
@@ -164,83 +149,7 @@
             <div class="main_container news col-lg-9 col-lg-9-fix col-md-9 padding-col-left-0 col-lg-push-3 col-md-push-3">
                 <section class="news-view">
                     <div class="news-list">
-                        <div class="news">
-                            <div class="news-title">
-                                <h2><span class="f-16 text-normal-hover">Cách bố trí hoa chậu trước cửa ấn tượng ngay lần đầu tiên</span></h2>
-                            </div>
-                            <div class="news-info d-flex mt-3">
-                                <div>
-                                    <span class="text-green mr-1"><i class="far fa-calendar-minus" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">20/12/2015</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-clock" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">11:20:00 AM</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-commenting" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">0 Bình luận</span>
-                                </div>
-                            </div>
-                            <div class="news-img mt-3">
-                                <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                            </div>
-                            <div class="new-demo-description mt-4">
-                                <div class="text-normal text-normal-size">Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.</div>
-                            </div>
-                        </div>
-
-                        <div class="news mt-5">
-                            <div class="news-title">
-                                <h2><span class="f-16 text-normal-hover">Cách bố trí hoa chậu trước cửa ấn tượng ngay lần đầu tiên</span></h2>
-                            </div>
-                            <div class="news-info d-flex mt-3">
-                                <div>
-                                    <span class="text-green mr-1"><i class="far fa-calendar-minus" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">20/12/2015</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-clock" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">11:20:00 AM</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-commenting" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">0 Bình luận</span>
-                                </div>
-                            </div>
-                            <div class="news-img mt-3">
-                                <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                            </div>
-                            <div class="new-demo-description mt-4">
-                                <div class="text-normal text-normal-size">Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.</div>
-                            </div>
-                        </div>
-
-                        <div class="news mt-5">
-                            <div class="news-title">
-                                <h2><span class="f-16 text-normal-hover">Cách bố trí hoa chậu trước cửa ấn tượng ngay lần đầu tiên</span></h2>
-                            </div>
-                            <div class="news-info d-flex mt-3">
-                                <div>
-                                    <span class="text-green mr-1"><i class="far fa-calendar-minus" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">20/12/2015</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-clock" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">11:20:00 AM</span>
-                                </div>
-                                <div class="ml-4">
-                                    <span class="text-green mr-1"><i class="far fa-commenting" aria-hidden="true"></i></span>
-                                    <span class="text-normal text-normal-size">0 Bình luận</span>
-                                </div>
-                            </div>
-                            <div class="news-img mt-3">
-                                <img src="/asset/images/news-1.webp" alt="News-1" title="News-1">
-                            </div>
-                            <div class="new-demo-description mt-4">
-                                <div class="text-normal text-normal-size">Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt.</div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="product-pagination mt-5">
@@ -262,10 +171,12 @@
 
     <div id="footer-placeholder"></div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="/asset/js/main.js"></script>
+    <script src="/asset/js/popup.js"></script>
+    <script src="/asset/js/news.js"></script>
     <script src="/asset/js/languageSwitcher.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="/asset/boostrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

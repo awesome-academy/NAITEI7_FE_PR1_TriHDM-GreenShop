@@ -85,6 +85,10 @@
         "title": "Promotional Products"
     },
 
+    "productNew": {
+        "title": "News Products"
+    },
+
     "homeNew": {
         "title": "News",
         "common": "Read more"
@@ -96,7 +100,8 @@
         "news": "News",
         "login": "Login",
         "register": "Register",
-        "contact": "Contact"
+        "contact": "Contact",
+        "cart": "Cart"
     },
 
     "productPage": {
@@ -221,5 +226,34 @@
 
             "button": "Submit"
         }
+    },
+
+    "cart": {
+        "title": "CART",
+        "table": {
+            "image": "IMAGE",
+            "name": "PRODUCT NAME",
+            "price": "PRICE",
+            "quality": "QUANTITY",
+            "totalPrice": "TOTAL",
+            "delete": "DELETE"
+        },
+        "button": {
+            "cancel": "CANCEL ORDER",
+            "continue": "CONTINUE SHOPPING",
+            "pay": "PAY"
+        },
+        "invoice": {
+            "sum": "SUBTOTAL (EXCLUDING TAX)",
+            "vat": "TAX (VAT 10%)",
+            "total": "TOTAL AMOUNT"
+        }
+    },
+    
+    "popup": {
+        "h2": "Get news from us",
+        "h4": "Subscribe to our email today",
+        "p": "Subscribe to our email today to receive information about events and discount programs from us",
+        "checkbox": "Don't show this message again"
     }
 }

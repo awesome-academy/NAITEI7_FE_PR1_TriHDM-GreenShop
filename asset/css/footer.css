@@ -116,3 +116,7 @@ footer .title-menu {
     line-height: 30px;
     float: left;
 }
+
+.list-menu li a:hover {
+    color: #3fb871;
+}
